@@ -1,0 +1,35 @@
+Arguments: 
+  /Users/antonio/.nvm/versions/node/v6.9.1/bin/node /usr/local/Cellar/yarn/1.9.2/libexec/bin/yarn.js add babel-core --dev
+
+PATH: 
+  /Users/antonio/.nvm/versions/node/v6.9.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.9.2
+
+Node version: 
+  6.9.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.npm.wsjfdev.dowjones.net registry.npm.wsjfdev.dowjones.net:80
+      at errnoException (dns.js:28:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+
+npm manifest: 
+  {
+    "name": "airbnb-frontend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/tony1908/airbnb-frontend-clone.git",
+    "author": "Antonio <toony1908@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
