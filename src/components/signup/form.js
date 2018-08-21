@@ -57,6 +57,7 @@ class SignUpForm extends Component {
             user: this.state
         }).then((response) => {
             console.log(response)
+            this.props.handleUser(true, response.data.token)
         }).catch((error) => {
             console.log(error);
         })

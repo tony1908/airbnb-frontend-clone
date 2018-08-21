@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
-import SignUp from './pages/signup';
+import AppRouter from './router/approuter';
 
 const AppContainer = document.getElementById('app');
 
-render(<SignUp />, AppContainer);
+render(<AppRouter/>, AppContainer);
 

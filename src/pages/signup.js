@@ -7,7 +7,7 @@ class Signup extends Component {
         return (
             <div>
                 <Grid container justify="center" alignItems="center">
-                    <SignUpForm />
+                    <SignUpForm handleUser={this.props.handleUser} />
                 </Grid>
             </div>
         )
